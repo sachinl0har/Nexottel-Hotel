@@ -208,3 +208,13 @@ section {
   vertical-align: middle;
 }
 
+#team-members .card {
+  box-shadow: 0 44px 66px #45505b5b;
+  transition: all 0.3s ease-out;
+}
+
+#team-members .card:hover {
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+    0 24px 46px var(--box-shadow-color);
+}
