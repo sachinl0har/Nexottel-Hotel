@@ -218,3 +218,9 @@ section {
   box-shadow: 0 24px 36px rgba(0,0,0,0.11),
     0 24px 46px var(--box-shadow-color);
 }
+
+form input {
+  border: 1px #000000 solid !important;
+  border-radius: 0 !important;
+  -webkit-appearance: none !important;
+}
