@@ -6,9 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -17,8 +15,7 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link stylesheet href="assets/css/style.css" rel="stylesheet">
   <link stylesheet href="assets/css/contactUS.css" rel="stylesheet">
   <title>Contact Us | Nexottel</title>
@@ -28,10 +25,9 @@
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="/">
-        <img src="assets/img/LOGO-1.png" alt="" width="120" height="60" class="d-inline-block align-text-top">
+        <img src="../../assets/img/LOGO-1.png" alt="" width="120" height="60" class="d-inline-block align-text-top">
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -40,8 +36,7 @@
             <a class="nav-link" aria-current="page" href="/">HOME</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               OUR SERVICES
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -81,8 +76,7 @@
             <a class="nav-link" href="#">PARTNERS</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               MEDIA
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -112,7 +106,7 @@
     <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
       <div class="carousel-inner" style="max-height:400px !important;">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="assets/img/Slides/slide3.jpg" alt="First slide">
+          <img class="d-block w-100" src="../../assets/img/Slides/slide3.jpg" alt="First slide">
         </div>
       </div>
     </div>
@@ -157,77 +151,73 @@
             </div>
           </div>
         </div>
+
+        <!-- -------------------------Contact Us form -->
+
         <div class="col-lg-8 mt-5 mt-lg-0">
-          <form action="myForm" method="post" role="form"
-            class="php-email-form">
-            <div class="row">
-              <div class="col-md-6 form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-              </div>
-              <div class="col-md-6 form-group mt-3 mt-md-0">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-              </div>
-            </div>
-            <div class="form-group mt-3">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-            </div>
-            <div class="form-group mt-3">
-              <textarea class="form-control" name="message" rows="5" id="msgbody" placeholder="Message" required></textarea>
-            </div>
-            <div class="my-3">
-              <div class="loading">Loading</div>
-              <div class="error-message">
-              </div>
-              <div class="sent-message">
-                Your message has been sent. Thank you!
-              </div>
-            </div>
-            <div class="text-center">
-              <button type="submit">
-                Send Message
-              </button>
-            </div>
+          <form id="myForm">
+            <h2>Send an Email</h2>
+
+            <label>Name</label>
+            <input id="name" type="text" placeholder="Enter Name">
+            <br><br>
+
+            <label>Email</label>
+            <input id="email" type="text" placeholder="Enter Email">
+            <br><br>
+
+            <label>Subject</label>
+            <input id="subject" type="text" placeholder=" Enter Subject">
+            <br><br>
+
+            <p>Message</p>
+            <textarea id="body" rows="5" placeholder="Type Message"></textarea>
+            <!--textarea tag should be closed (In this coding UI textarea close tag cannot be used)-->
+            <br><br>
+
+            <button type="button" onclick="sendEmail()" value="Send An Email">Submit</button>
           </form>
         </div>
 
         <!-----------------------------Form JavaScript--------------------------->
 
         <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript">
-        function sendEmail() {
+        <script type="text/javascript">
+          function sendEmail() {
             var name = $("#name");
             var email = $("#email");
             var subject = $("#subject");
-            var body = $("#msgbody");
+            var body = $("#body");
 
             if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(body)) {
-                $.ajax({
-                   url: 'forms\contactUSForm\sendEmail.php',
-                   method: 'POST',
-                   dataType: 'json',
-                   data: {
-                       name: name.val(),
-                       email: email.val(),
-                       subject: subject.val(),
-                       body: body.val()
-                   }, success: function (response) {
-                        $('#myForm')[0].reset();
-                        $('.sent-notification').text("Message Sent Successfully.");
-                   }
-                });
+              $.ajax({
+                url: 'sendEmail.php',
+                method: 'POST',
+                dataType: 'json',
+                data: {
+                  name: name.val(),
+                  email: email.val(),
+                  subject: subject.val(),
+                  body: body.val()
+                },
+                success: function(response) {
+                  $('#myForm')[0].reset();
+                  $('.sent-notification').text("Message Sent Successfully.");
+                }
+              });
             }
-        }
+          }
 
-        function isNotEmpty(caller) {
+          function isNotEmpty(caller) {
             if (caller.val() == "") {
-                caller.css('border', '1px solid red');
-                return false;
+              caller.css('border', '1px solid red');
+              return false;
             } else
-                caller.css('border', '');
+              caller.css('border', '');
 
             return true;
-        }
-    </script>
+          }
+        </script>
 
 
 
@@ -241,9 +231,7 @@
     <div class="container pt-4">
       <div style="background-color:#bad9c9; padding:10px;">
         <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.755767018469!2d73.97907161436842!3d18.494718874792575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c3411bb36f3d%3A0x26a9a1ff6970c719!2sSurymerlin+Hospitality+LLP!5e0!3m2!1sen!2sin!4v1558777327635!5m2!1sen!2sin"
-          width="100%" height="350" style="border:0;" loading="lazy" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.755767018469!2d73.97907161436842!3d18.494718874792575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c3411bb36f3d%3A0x26a9a1ff6970c719!2sSurymerlin+Hospitality+LLP!5e0!3m2!1sen!2sin!4v1558777327635!5m2!1sen!2sin" width="100%" height="350" style="border:0;" loading="lazy" allowfullscreen></iframe>
       </div>
     </div>
     <footer>
@@ -297,9 +285,7 @@
   <script src="assets/js/main.js"></script>
   <!-- Optional JavaScript; choose one of the two! -->
   <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
