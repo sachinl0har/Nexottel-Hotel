@@ -155,28 +155,21 @@
         <!-- -------------------------Contact Us form -->
 
         <div class="col-lg-8 mt-5 mt-lg-0">
-          <form id="myForm">
-            <h2>Send an Email</h2>
 
-            <label>Name</label>
-            <input id="name" type="text" placeholder="Enter Name">
-            <br><br>
+          <<div class="info">Give Your Feedback!</div>
 
-            <label>Email</label>
-            <input id="email" type="text" placeholder="Enter Email">
-            <br><br>
+		<form action="sendEmail.php" method="post" name="form" class="form-box">
+			<label for="name">Name</label><br>
+			<input type="text" name="name" class="inp" placeholder="Enter Your Name" required><br>
+			<label for="email">Email ID</label><br>
+			<input type="email" name="email" class="inp" placeholder="Enter Your Email" required><br>
+			<label for="phone">Phone</label><br>
+			<input type="tel" name="phone" class="inp" placeholder="Enter Your Phone" required><br>
+			<label for="message">Message</label><br>
+			<textarea name="msg" class="msg-box" placeholder="Enter Your Message Here..." required></textarea><br>
+			<input type="submit" name="submit" value="Send" class="sub-btn">
+		</form>
 
-            <label>Subject</label>
-            <input id="subject" type="text" placeholder=" Enter Subject">
-            <br><br>
-
-            <p>Message</p>
-            <textarea id="body" rows="5" placeholder="Type Message"></textarea>
-            <!--textarea tag should be closed (In this coding UI textarea close tag cannot be used)-->
-            <br><br>
-
-            <button type="button" onclick="sendEmail()" value="Send An Email">Submit</button>
-          </form>
         </div>
 
         <!-----------------------------Form JavaScript--------------------------->
