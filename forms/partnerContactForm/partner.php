@@ -12,12 +12,12 @@
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="../../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -118,11 +118,8 @@
 
         </div>
 
-        <div class="pb-5 mb-5">
-            <div style="max-height:350px !important;" class="card bg-dark text-center text-white">
-                <img src="/assets/img/Slides/slide3.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay">
-                    <div class="section-title pt-2">
+        <section id="enquiry" class="enquiry">
+        <div class="section-title pt-2">
                         <h2 class="text-center text-white fw-bold">ENQUIRY</h2>
                     </div>
                     <div class="container">
@@ -160,9 +157,7 @@
                             </div>
                         </form>
                     </div>
-                </div>
-            </div>
-        </div>
+        </section>
 
 
 
