@@ -53,25 +53,25 @@
                             OUR SERVICES
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="pages/whatWeOfferPages/hotel-management.html">HOTEL MANAGEMENT</a></li>
-                            <li><a class="dropdown-item" href="pages/whatWeOfferPages/property-development.html"> PROPERTY DEVELOPMENT </a></li>
-                            <li><a class="dropdown-item" href="pages/whatWeOfferPages/design-management.html">DESIGN MANAGEMENT</a></li>
-                            <li><a class="dropdown-item" href="pages/whatWeOfferPages/human-resources-training.html">HUMAN RESOURCE AND TRAINING</a></li>
-                            <li><a class="dropdown-item" href="pages/whatWeOfferPages/marketing-revenue.html">MARKETING & REVENUE MANAGEMENT</a></li>
-                            <li><a class="dropdown-item" href="pages/whatWeOfferPages/brand-compliance.html">BRAND COMPLIANCE</a></li>
-                            <li><a class="dropdown-item" href="pages/whatWeOfferPages/technical-services.html">TECHNICAL SERVICES</a></li>
-                            <li><a class="dropdown-item" href="pages/whatWeOfferPages/finance-and-accounting.html">FINANCE AND ACCOUNTING</a></li>
-                            <li><a class="dropdown-item" href="pages/whatWeOfferPages/sales.html">SALES</a></li>
+                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/hotel-management.html">HOTEL MANAGEMENT</a></li>
+                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/property-development.html"> PROPERTY DEVELOPMENT </a></li>
+                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/design-management.html">DESIGN MANAGEMENT</a></li>
+                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/human-resources-training.html">HUMAN RESOURCE AND TRAINING</a></li>
+                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/marketing-revenue.html">MARKETING & REVENUE MANAGEMENT</a></li>
+                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/brand-compliance.html">BRAND COMPLIANCE</a></li>
+                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/technical-services.html">TECHNICAL SERVICES</a></li>
+                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/finance-and-accounting.html">FINANCE AND ACCOUNTING</a></li>
+                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/sales.html">SALES</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                        <a class="nav-link" href="../../portfolio.html">PORTFOLIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="team-members.html">TEAM</a>
+                        <a class="nav-link" href="../../team-members.html">TEAM</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="partner.html">PARTNERS</a>
+                        <a class="nav-link active" href="../partnerContactForm/partner.php">PARTNERS</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -79,15 +79,15 @@
                             MEDIA
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="pages/awards&news/awards.html">AWARDS</a></li>
-                            <li><a class="dropdown-item" href="pages/awards&news/news.html">NEWS</a></li>
+                            <li><a class="dropdown-item" href="../../pages/awards&news/awards.html">AWARDS</a></li>
+                            <li><a class="dropdown-item" href="../../pages/awards&news/news.html">NEWS</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="career.html">CAREER</a>
+                        <a class="nav-link" href="../careerForm/applyCareerForm.php">CAREER</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="forms/contactUSForm/contact-us.php">CONTACT US</a>
+                        <a class="nav-link" href="../../forms/contactUSForm/contact-us.php">CONTACT US</a>
                     </li>
                 </ul>
                 <!-- <form class="d-flex">
