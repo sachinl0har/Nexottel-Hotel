@@ -6,96 +6,88 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Google Fonts -->
-  <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-    <!-- Vendor CSS Files -->
-    <link href="../../assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="../../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="../../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="../../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Vendor CSS Files -->
+  <link href="../../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!------ Include the above in your HEAD tag ---------->
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
-    <link stylesheet href="../../assets/css/style.css" rel="stylesheet">
-    <link stylesheet href="../../assets/css/contactUS.css" rel="stylesheet">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!------ Include the above in your HEAD tag ---------->
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+  <link stylesheet href="../../assets/css/style.css" rel="stylesheet">
+  <link stylesheet href="../../assets/css/contactUS.css" rel="stylesheet">
   <title>Contact Us | Nexottel</title>
 </head>
 
 <body>
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="/">
-                <img src="../../assets/img/LOGO-1.png" alt="" width="120" height="60"
-                    class="d-inline-block align-text-top"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/">HOME</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            OUR SERVICES
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/hotel-management.html">HOTEL MANAGEMENT</a></li>
-                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/property-development.html"> PROPERTY DEVELOPMENT </a></li>
-                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/design-management.html">DESIGN MANAGEMENT</a></li>
-                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/human-resources-training.html">HUMAN RESOURCE AND TRAINING</a></li>
-                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/marketing-revenue.html">MARKETING & REVENUE MANAGEMENT</a></li>
-                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/brand-compliance.html">BRAND COMPLIANCE</a></li>
-                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/technical-services.html">TECHNICAL SERVICES</a></li>
-                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/finance-and-accounting.html">FINANCE AND ACCOUNTING</a></li>
-                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/sales.html">SALES</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">PORTFOLIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../../team-members.html">TEAM</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../../partner.html">PARTNERS</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            MEDIA
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="../../pages/awards&news/awards.html">AWARDS</a></li>
-                            <li><a class="dropdown-item" href="../../pages/awards&news/news.html">NEWS</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../../career.html">CAREER</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="../../forms/contactUSForm/contact-us.php">CONTACT US</a>
-                    </li>
-                </ul>
-                <!-- <form class="d-flex">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="../../assets/img/LOGO-1.png" alt="" width="120" height="60" class="d-inline-block align-text-top"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              OUR SERVICES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/hotel-management.html">HOTEL MANAGEMENT</a></li>
+              <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/property-development.html"> PROPERTY DEVELOPMENT </a></li>
+              <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/design-management.html">DESIGN MANAGEMENT</a></li>
+              <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/human-resources-training.html">HUMAN RESOURCE AND TRAINING</a></li>
+              <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/marketing-revenue.html">MARKETING & REVENUE MANAGEMENT</a></li>
+              <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/brand-compliance.html">BRAND COMPLIANCE</a></li>
+              <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/technical-services.html">TECHNICAL SERVICES</a></li>
+              <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/finance-and-accounting.html">FINANCE AND ACCOUNTING</a></li>
+              <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/sales.html">SALES</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PORTFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../team-members.html">TEAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../partner.html">PARTNERS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              MEDIA
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../../pages/awards&news/awards.html">AWARDS</a></li>
+              <li><a class="dropdown-item" href="../../pages/awards&news/news.html">NEWS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../career.html">CAREER</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../../forms/contactUSForm/contact-us.php">CONTACT US</a>
+          </li>
+        </ul>
+        <!-- <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form> -->
-            </div>
-        </div>
-    </nav>
+      </div>
+    </div>
+  </nav>
 
   <section id="contact" class="contact">
     <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
@@ -152,30 +144,30 @@
 
           <div class="info">Give Your Feedback!</div>
 
-		<form action="sendEmail.php" method="post" name="form" class="form-box">
+          <form action="sendEmail.php" method="post" name="form" class="form-box php-email-form">
 
-    <div class="row">
+            <div class="row">
               <div class="col-md-6 form-group">
-              <label for="name">Name</label><br>
-			<input type="text" name="name" class="inp" placeholder="Enter Your Name" required>
+                <label for="name">Name</label><br>
+                <input type="text" name="name" class="inp form-control" placeholder="Enter Your Name" required>
               </div>
               <div class="col-md-6 form-group mt-3 mt-md-0">
-              <label for="email">Email ID</label><br>
-			<input type="email" name="email" class="inp" placeholder="Enter Your Email" required>
+                <label for="email">Email ID</label><br>
+                <input type="email" name="email" class="inp form-control" placeholder="Enter Your Email" required>
               </div>
             </div>
             <div class="form-group mt-3">
-            <label for="phone">Phone</label><br>
-			<input type="tel" name="phone" class="inp" placeholder="Enter Your Phone" required>
+              <label for="phone">Phone</label><br>
+              <input type="tel" name="phone" class="inp form-control" placeholder="Enter Your Phone" required>
             </div>
             <div class="form-group mt-3">
-            <label for="message">Message</label><br>
-			<textarea name="msg" class="msg-box" placeholder="Enter Your Message Here..." required></textarea>
+              <label for="message">Message</label><br>
+              <textarea name="msg" class="msg-box form-control" placeholder="Enter Your Message Here..." required></textarea>
             </div>
-            <div class="my-3">
-              <input type="submit" name="submit" value="Send" class="sub-btn">
+            <div class="my-3 text-center">
+              <input type="submit" name="submit" value="Send" class="sub-btn btn btn-dark">
             </div>
-		</form>
+          </form>
 
         </div>
 
@@ -284,8 +276,8 @@
 
   <!-- Back to top button -->
   <button type="button" class="btn btn-outline-dark btn-floating btn-lg" id="btn-back-to-top">
-        <i class="fa fa-arrow-up"></i>
-    </button>
+    <i class="fa fa-arrow-up"></i>
+  </button>
   <!-- End Contact Section -->
   <script src="../../assets/js/main.js"></script>
   <!-- Optional JavaScript; choose one of the two! -->
