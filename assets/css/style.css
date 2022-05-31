@@ -226,6 +226,7 @@ form input {
 }
 
 #btn-back-to-top {
+  background-color: burlywood;
   border-radius: 50%;
   position: fixed;
   bottom: 20px;
