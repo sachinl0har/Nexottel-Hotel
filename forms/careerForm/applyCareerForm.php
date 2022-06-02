@@ -32,67 +32,81 @@
 </head>
 
 <body>
-
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="/">
-        <img src="../../assets/img/LOGO-1.png" alt="" width="120" height="60" class="d-inline-block align-text-top"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="/">HOME</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              OUR SERVICES
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/hotel-management.html">HOTEL MANAGEMENT</a></li>
-              <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/property-development.html"> PROPERTY DEVELOPMENT </a></li>
-              <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/design-management.html">DESIGN MANAGEMENT</a></li>
-              <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/human-resources-training.html">HUMAN RESOURCE AND TRAINING</a></li>
-              <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/marketing-revenue.html">MARKETING & REVENUE MANAGEMENT</a></li>
-              <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/brand-compliance.html">BRAND COMPLIANCE</a></li>
-              <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/technical-services.html">TECHNICAL SERVICES</a></li>
-              <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/finance-and-accounting.html">FINANCE AND ACCOUNTING</a></li>
-              <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/sales.html">SALES</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../portfolio.html">PORTFOLIO</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../team-members.html">TEAM</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../forms/partnerContactForm//partner.php">PARTNERS</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              MEDIA
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="../../pages/awards&news/awards.html">AWARDS</a></li>
-              <li><a class="dropdown-item" href="../../pages/awards&news/news.html">NEWS</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="../../career.html">CAREER</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../forms/contactUSForm/contact-us.php">CONTACT US</a>
-          </li>
-        </ul>
-        <!-- <form class="d-flex">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="../../assets/img/LOGO.png" alt="" width="120" height="50"
+                    class="d-inline-block align-text-top"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            OUR SERVICES
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/hotel-management.html">HOTEL
+                                    MANAGEMENT</a></li>
+                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/property-development.html">
+                                    PROPERTY DEVELOPMENT </a></li>
+                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/design-management.html">DESIGN
+                                    MANAGEMENT</a></li>
+                            <li><a class="dropdown-item"
+                                    href="../../pages/whatWeOfferPages/human-resources-training.html">HUMAN RESOURCE AND
+                                    TRAINING</a></li>
+                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/marketing-revenue.html">MARKETING
+                                    & REVENUE MANAGEMENT</a></li>
+                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/brand-compliance.html">BRAND
+                                    COMPLIANCE</a></li>
+                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/technical-services.html">TECHNICAL
+                                    SERVICES</a></li>
+                            <li><a class="dropdown-item"
+                                    href="../../pages/whatWeOfferPages/finance-and-accounting.html">FINANCE AND ACCOUNTING</a>
+                            </li>
+                            <li><a class="dropdown-item" href="../../pages/whatWeOfferPages/sales.html">SALES</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../portfolio.html">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../team-members.html">TEAM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../forms/partnerContactForm/partner.php">PARTNERS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            MEDIA
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../../pages/awards&news/awards.html">AWARDS</a></li>
+                            <li><a class="dropdown-item" href="../../pages/awards&news/news.html">NEWS</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../career.html">CAREER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../forms/contactUSForm/contact-us.php">CONTACT US</a>
+                    </li>
+                </ul>
+                <!-- <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form> -->
-      </div>
-    </div>
-  </nav>
+            </div>
+        </div>
+    </nav>
 
   <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner" style="max-height:350px !important;">
