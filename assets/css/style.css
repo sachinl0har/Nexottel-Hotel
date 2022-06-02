@@ -141,6 +141,8 @@ section{
   color: #2f2f2f;
 }
 
+.navbar-toggler,
+.navbar-toggler-icon,
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
